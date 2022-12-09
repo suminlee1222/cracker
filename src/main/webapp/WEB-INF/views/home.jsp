@@ -10,7 +10,7 @@
 <body>
 	<ul>
 		<c:forEach var="item" items="${userList}">
-			<li>${item.userId} / ${item.memo} </li>
+			<li>${item.idx} / ${item.userId} / ${item.memo} </li>
 		</c:forEach>
 	</ul>
 </body>
