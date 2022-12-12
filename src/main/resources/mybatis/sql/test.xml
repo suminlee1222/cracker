@@ -7,8 +7,8 @@
 			<select id="selectUserId" resultType="planVO">
 				SELECT 
 					idx, 
-					userId, 
-					memo
-				FROM test
+					name, 
+					puid
+				FROM item_code3
 			</select>
 		</mapper>

@@ -30,9 +30,10 @@ public class HomeController {
 		List<PlanVO> userList = planService.selectUserId();
 		
 		model.addAttribute("userList", userList);
-		logger.info("잘작동하고 있음", userList);
+		logger.info("userList", userList);
 		
 		return "home";
 	}
+	
 	
 }
