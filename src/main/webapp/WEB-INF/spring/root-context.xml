@@ -16,7 +16,7 @@
 			<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
 			<property name="url" value="jdbc:mysql://127.0.0.1:3306/cracker?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;characterEncoding=UTF-8&amp;useUnicode=yes" ></property>
 			<property name="username" value="root" />
-			<property name="password" value="t02060218!" />
+			<property name="password" value="" />
 		</bean>
 
 		<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
