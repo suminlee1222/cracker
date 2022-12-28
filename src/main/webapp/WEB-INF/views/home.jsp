@@ -16,5 +16,6 @@
 			<li>${item.idx}번 / ${item.name}님 / 번호: ${item.puid} </li>
 		</c:forEach>
 	</ul>
+	<h3>yuban commit test</h3>
 </body>
 </html>
