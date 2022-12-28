@@ -13,7 +13,7 @@
 <body>
 	<ul>
 		<c:forEach var="item" items="${userList}">
-			<li>${item.idx}번 / ${item.name}님 / 번호: ${item.puid} </li>
+			<li>${item.idx}번 / ${item.userId}님 / 번호: ${item.memo} </li>
 		</c:forEach>
 	</ul>
 </body>

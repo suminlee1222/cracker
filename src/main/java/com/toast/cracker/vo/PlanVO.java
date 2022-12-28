@@ -3,9 +3,8 @@ package com.toast.cracker.vo;
 public class PlanVO {
 	
 	private int idx;
-	private String name;
-	private int puid;
-	
+	private String userId;
+	private String memo;
 	
 	public int getIdx() {
 		return idx;
@@ -13,18 +12,20 @@ public class PlanVO {
 	public void setIdx(int idx) {
 		this.idx = idx;
 	}
-	public String getName() {
-		return name;
+	public String getUserId() {
+		return userId;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
-	public int getPuid() {
-		return puid;
+	public String getMemo() {
+		return memo;
 	}
-	public void setPuid(int puid) {
-		this.puid = puid;
+	public void setMemo(String memo) {
+		this.memo = memo;
 	}
+	
+	
 	
 
 }

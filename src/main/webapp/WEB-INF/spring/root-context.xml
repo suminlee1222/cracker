@@ -14,9 +14,9 @@
 	
 		<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 			<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
-			<property name="url" value="jdbc:mysql://db-a9lkg-kr.vpc-pub-cdb.ntruss.com:3306/nameq_dev?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;characterEncoding=UTF-8&amp;useUnicode=yes" ></property>
-			<property name="username" value="smarket" />
-			<property name="password" value="tmakxmakzpt#1582" />
+			<property name="url" value="jdbc:mysql://127.0.0.1:3316/cracker_dev?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true&amp;characterEncoding=UTF-8&amp;useUnicode=yes" ></property>
+			<property name="username" value="sumin" />
+			<property name="password" value="1234" />
 		</bean>
 
 		<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
