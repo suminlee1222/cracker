@@ -13,5 +13,6 @@
 			<li>${item.idx} / ${item.userId} / ${item.memo} </li>
 		</c:forEach>
 	</ul>
+	<div>commit test</div>
 </body>
 </html>
